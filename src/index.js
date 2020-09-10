@@ -2,8 +2,10 @@ const {
    generateFun
 } = require('./generator');
 const fse = require('fs-extra');
-var path = require("path");
-
+const path = require("path");
+const chalk = require('chalk');
+const clear = require('clear');
+const figlet = require('figlet');
 
 // naive way of thinking is to get the path of the json file and contracts .sol 
 //get contract from path 

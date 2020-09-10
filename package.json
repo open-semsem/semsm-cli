@@ -1,11 +1,11 @@
 {
-  "name": "truffle-web3-generator",
+  "name": "@semsm/semsm-cli",
   "version": "1.0.4",
-  "description": "utility to auto generate web3 functions for each truffle contract",
+  "description": "A CLI to automate workflow in blockchain projects",
   "main": "src/index.js",
   "bin": {
-    "truffle-plugin/truffle-generate": "./bin/truffle-generate",
-    "truffle-generate": "./bin/truffle-generate"
+    "@semsm/semsm": "./bin/semsm-cli",
+    "semsm": "./bin/semsm-cli"
   },
   "directories": {
     "test": "test"
@@ -15,11 +15,14 @@
     "test": "echo \"No test specified\""
   },
   "keywords": [
-    "truffle",
+    "cli",
+    "automation",
+    "semsm",
     "web3",
     "ethereum",
-    "generate",
-    "smartcontract",
+    "blockchain",
+    "smartContract",
+    "truffle",
     "javascript"
   ],
   "author": "Eman Herawy <eman.herawy@gmail.com>",
@@ -35,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EmanHerawy/truffle-service-generator"
+    "url": "git+https://github.com/open-semsem/semsm-cli"
   },
   "files": [
     "bin/",
