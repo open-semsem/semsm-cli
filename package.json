@@ -1,6 +1,6 @@
 {
   "name": "@semsm/semsm-cli",
-  "version": "1.0.4",
+  "version": "0.1.0",
   "description": "A CLI to automate workflow in blockchain projects",
   "main": "src/index.js",
   "bin": {
